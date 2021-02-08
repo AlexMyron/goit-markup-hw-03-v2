@@ -182,6 +182,7 @@ a.logo > span {
   padding-bottom: 10px;
   padding-left: 32px;
   border: 1px solid transparent;
+  border-radius: 4px;
 
   color: var(--white-color);
   background-color: var(--accent-color);
