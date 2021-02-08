@@ -181,6 +181,7 @@ a.logo > span {
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
+  border: 1px solid transparent;
 
   color: var(--white-color);
   background-color: var(--accent-color);
