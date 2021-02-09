@@ -8,6 +8,7 @@
   --hero-footer-bg-color: #2F303A;
   --main-body-bg-color: #ffffff;
   --secondary-body-bg-color: #F5F4FA;
+  --border-color: #ECECEC;
   --work-section-item-gap: 30px;
 }
 
@@ -64,6 +65,8 @@ h2, h3 {
 .page-header > .container {
   padding-bottom: 25px;
   padding-top: 25px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border-color);
 }
 
 /* nav */
@@ -388,6 +391,11 @@ a.logo > span {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
+  
+
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
 }
 
 .content > .subtitle {
