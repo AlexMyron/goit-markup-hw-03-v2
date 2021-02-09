@@ -59,8 +59,6 @@ h2, h3 {
   margin-left: auto;
   margin-bottom: 94px;
   display: flex;
-
-  outline: 1px solid tomato;
 }
 
 .page-header > .container {
