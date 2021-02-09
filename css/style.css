@@ -62,11 +62,14 @@ h2, h3 {
   display: flex;
 }
 
+.page-header {
+  border-bottom: 1px solid var(--border-color);
+}
+
 .page-header > .container {
   padding-bottom: 25px;
   padding-top: 25px;
   margin-bottom: 0;
-  border-bottom: 1px solid var(--border-color);
 }
 
 /* nav */
@@ -155,7 +158,6 @@ a.logo > span {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 
   background-color: var(--hero-footer-bg-color);
 }
@@ -199,12 +201,18 @@ a.logo > span {
 }
 
 /* Features */
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features-list > .features-item + .features-item {
   margin-left: 30px;
 }
 
 .features > .features-list {
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 .features-list > .features-item {
@@ -246,8 +254,13 @@ a.logo > span {
 }
 
 /* Work */
+.work {
+  padding-bottom: 94px;
+}
+
 .work > .work-list {
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 .work > .subtitle,
@@ -341,9 +354,15 @@ a.logo > span {
 }
 
 /* _________________ */
-/* Portfolio-Page */
+/* Portfolio-Page */ 
+.work-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .work-section > .container {
   flex-direction: column;
+  margin-bottom: 0;
 }
 
 .work-menu-item > .button {
@@ -361,7 +380,7 @@ a.logo > span {
 .container > .work-section-menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .work-section-menu > .work-menu-item + .work-menu-item {
