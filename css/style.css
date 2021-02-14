@@ -405,7 +405,8 @@ a.logo > span {
 }
 
 .work-section-list > .work-item {
-  flex-basis: calc((100% - 90px) / 3);
+  /* flex-basis: calc((100% - 90px) / 3); */
+  flex-basis: calc(100% / 3 - var(--work-section-item-gap));
   margin-top: var(--work-section-item-gap);
   margin-left: var(--work-section-item-gap);
 }
